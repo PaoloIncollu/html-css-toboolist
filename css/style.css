@@ -22,7 +22,7 @@ body{
 
     background-color: #FFFFFF;
     width: 70%;
-    margin: 40px auto 10px auto;
+    margin: 40px auto 2px auto;
     padding: 20px 50px 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -35,8 +35,10 @@ body{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding-top:40px;
-    padding-left: 40px;
+    padding:40px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+   
 }   
 
 
@@ -56,6 +58,12 @@ body{
 
 }
 
+.section{
+
+    margin-bottom: 20px;
+
+}
+
 .title-section{
 
     display: inline-block;
@@ -66,14 +74,75 @@ body{
 .check{
 
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     margin-right: 5px;
     text-align: center;
-    line-height: 20px;
-    font-size: 15px;
+    line-height: 15px;
+    font-size: 0.5em;
+    
 
+}
+
+.info{
+
+    padding-bottom: 0.5em;
+
+}
+
+.box{
+
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+    margin-left: 5px;
+    font-size: 0.7em;
+    text-align: center;
+    color: white;
+
+}
+
+.color-box-blue{
+
+    background-color:#44A8E5;
+    border: 1px solid #44A8E5;
+
+}
+
+.color-box-violet{
+
+    background-color:#9C72E4;
+    border: 1px solid #9C72E4;
+    
+}
+
+.color-box-green{
+
+    background-color:#64C0A9;
+    border: 1px solid #64C0A9;
+
+}
+
+.color-box-orange{
+
+    background-color:#F29E33;
+    border: 1px solid #F29E33;
+    
+}
+
+.color-box-rose{
+
+    background-color:#D863A1;
+    border: 1px solid #D863A1;
+    
+}
+
+.color-box-yellow{
+
+    background-color:#A0B526;
+    border: 1px solid #A0B526;
+    
 }
 
 #logo{
