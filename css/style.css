@@ -15,6 +15,34 @@
 body{
 
     background-color:#F6F8F9;
+    
+}
+
+.navigazione{
+
+    background-color: #FFFFFF;
+    width: 70%;
+    margin: 40px auto 10px auto;
+    padding: 20px 50px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.container{
+ 
+    background-color: #FFFFFF;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}   
+
+
+.button{
+
+    border-radius: 10%;
+    
 }
 
 #logo{
@@ -27,4 +55,20 @@ body{
 
     display: inline-block;
     vertical-align: middle;
+}
+
+#add-task{
+
+    background-color: #47ADF1;
+    color: white;
+    border-color:#47ADF1;
+    padding: 10px;
+}
+
+#add-section{
+
+    background-color: white;
+    color: #D8DCDF;
+    border-color:#D8DCDF;
+    padding: 10px;
 }
