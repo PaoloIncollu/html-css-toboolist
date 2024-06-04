@@ -145,6 +145,18 @@ body{
     
 }
 
+.true{
+    
+    color: green;
+    border: 1px solid green;
+}
+
+.false{
+
+    color: red;
+    border: 1px solid red;
+}
+
 #logo{
 
     vertical-align: middle;
@@ -174,14 +186,4 @@ body{
     padding: 10px;
 }
 
-#true{
-    
-    color: green;
-    border: 1px solid green;
-}
 
-#false{
-
-    color: red;
-    border: 1px solid red;
-}
