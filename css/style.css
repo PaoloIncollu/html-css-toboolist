@@ -1,0 +1,30 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.intestazione{
+
+    background-color: #FFFFFF;
+    padding: 20px;
+
+}
+body{
+
+    background-color:#F6F8F9;
+}
+
+#logo{
+
+    vertical-align: middle;
+
+}
+
+#title{
+
+    display: inline-block;
+    vertical-align: middle;
+}
